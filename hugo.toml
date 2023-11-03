@@ -1,6 +1,6 @@
 baseURL = 'http://leberjs.dev'
 languageCode = 'en-us'
-title = 'leberjs.dev'
+defaultContentLanguage = "en"
 
 theme = "hugo-bearcub"
 copyright = "Jason Leber"
@@ -9,7 +9,18 @@ enableRobotsTXT = true
 [author]
     name = "Jason Leber"
 
+[languages]
+  [languages.en]
+    title = "leberjs.dev"
+    languageName = "en-US 🇺🇸"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+
 [params]
+    description = "leberjs personal site"
+    title = "leberjs.dev"
     dateFormat = "2023-01-02"
 
     [social]
