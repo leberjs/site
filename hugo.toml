@@ -7,7 +7,7 @@ copyright = "Jason Leber"
 enableRobotsTXT = true
 
 [author]
-    "Jason Leber"
+    name = "Jason Leber"
 
 [params]
     dateFormat = "2023-01-02"
