@@ -3,3 +3,14 @@ languageCode = 'en-us'
 title = 'leberjs.dev'
 
 theme = "hugo-bearcub"
+copyright = "Jason Leber"
+enableRobotsTXT = true
+
+[author]
+    "Jason Leber"
+
+[params]
+    dateFormat = "2023-01-02"
+
+[social]
+    email = "leberjs@gmail.com"
