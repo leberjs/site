@@ -2,7 +2,7 @@ baseURL = 'http://leberjs.dev'
 languageCode = 'en-us'
 defaultContentLanguage = "en"
 
-theme = "hugo-bearcub"
+theme = "hermit-v2"
 copyright = "Jason Leber"
 enableRobotsTXT = true
 
@@ -11,17 +11,31 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "leberjs.dev"
-    languageName = "en-US 🇺🇸"
-    LanguageCode = "en-US"
-    contentDir = "content"
+    title = "Jason Leber"
     [languages.en.params]
-      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+        homeSubtitle = "Wannabe Go developer. Aspiring Architect. All around curious."
 
 [params]
     description = "leberjs personal site"
     title = "leberjs.dev"
     dateFormat = "2023-01-02"
 
-    [social]
-        email = "leberjs@gmail.com"
+    [[params.socialLinks]]
+        name = "email"
+        url = "mailto:leberjs@gmail.com"
+
+    [[params.socialLinks]]
+        name = "github"
+        url = "https://github.com/leberjs"
+
+[menu]
+    
+    [[menu.main]]
+        name = "Bytes"
+        url = "bytes/"
+        weight = 10
+
+    [[menu.main]]
+        name = "Posts"
+        url = "posts/"
+        weight = 10
