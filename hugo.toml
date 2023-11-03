@@ -1,4 +1,4 @@
-baseURL = 'http://leberjs.dev/'
+baseURL = 'https://example.com'
 languageCode = 'en-us'
 title = 'leberjs.dev'
 
