@@ -12,5 +12,5 @@ enableRobotsTXT = true
 [params]
     dateFormat = "2023-01-02"
 
-[social]
-    email = "leberjs@gmail.com"
+    [social]
+        email = "leberjs@gmail.com"
