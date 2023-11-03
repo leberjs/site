@@ -1,4 +1,4 @@
-baseURL = 'http://www.leberjs.dev'
+baseURL = 'https://www.leberjs.dev'
 languageCode = 'en-us'
 defaultContentLanguage = "en"
 
