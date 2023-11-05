@@ -2,7 +2,7 @@
 title = 'Add API Gateway Mapping with AWS CDK'
 slug = 'cdk-api-mapping'
 date = 2023-11-04T19:37:27-05:00
-tags = ["cdk", "python"]
+tags = ["byte", "cdk", "python"]
 draft = false
 +++
 

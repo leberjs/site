@@ -6,8 +6,13 @@ theme = "hermit-v2"
 copyright = "Jason Leber"
 enableRobotsTXT = true
 
+enableGitInfo = true
+
 [author]
     name = "Jason Leber"
+
+[taxonomies]
+    tag = "tags"
 
 [languages]
   [languages.en]
@@ -20,9 +25,16 @@ enableRobotsTXT = true
     title = "leberjs.dev"
     dateFormat = "2023-01-02"
 
+    relatedPosts = true
+    code_copy_button = true
+
     [[params.socialLinks]]
         name = "email"
         url = "mailto:leberjs@gmail.com"
+
+    [[params.socialLinks]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/jason-leber-92227456"
 
     [[params.socialLinks]]
         name = "github"
@@ -35,7 +47,12 @@ enableRobotsTXT = true
         url = "bytes/"
         weight = 10
 
-    [[menu.main]]
-        name = "Posts"
-        url = "posts/"
-        weight = 10
+    # [[menu.main]]
+    #     name = "Posts"
+    #     url = "posts/"
+    #     weight = 20
+
+    # [[menu.main]]
+    #     name = "About"
+    #     url = "about"
+    #     weight = 90
